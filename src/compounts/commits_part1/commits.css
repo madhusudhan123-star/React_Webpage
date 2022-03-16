@@ -1,0 +1,86 @@
+.commits1_div {
+  background-color: #0a2640;
+  padding-bottom: 1rem;
+}
+
+.selected_card {
+  border-radius: 14px;
+}
+
+.part1_heading {
+  width: 65%;
+  color: white;
+}
+.part1_icons {
+  color: #0a2640;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.part1_iconleft,
+.part1_iconright {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  border-radius: 25px;
+}
+.part1_div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 0rem;
+}
+
+@media (max-width: 888px) {
+  .part1_div {
+    padding: 1rem 1.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .part1_heading {
+    width: 98%;
+  }
+  .part1_div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.cards_div {
+  gap: 1rem;
+}
+
+.middle {
+  line-height: 3rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_img {
+  width: 15%;
+}
+.profile_name {
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  color: #0a2640;
+}
+.profile_position {
+  font-size: 0.8rem;
+}
+.profile_information {
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+@media (max-width: 375px) {
+  .middle {
+    line-height: 2rem;
+  }
+}

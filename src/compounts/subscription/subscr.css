@@ -1,0 +1,41 @@
+.sub_main {
+  background-color: #1c3d5b;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.sub_head_div {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.sub_head {
+  width: 59%;
+  color: white;
+  font-size: 2rem;
+}
+.sub_input {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding-bottom: 52px;
+}
+.inputs {
+  margin-right: 10px;
+}
+.sub-button {
+  background-color: #65e4a3;
+  font-weight: 500;
+}
+.sub-button:hover {
+  background-color: white;
+}
+
+@media (max-width: 425px) {
+  .sub_input {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs {
+    padding: 20px 0px;
+  }
+}

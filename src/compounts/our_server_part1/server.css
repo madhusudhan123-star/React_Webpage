@@ -1,0 +1,49 @@
+.services_div {
+  font: 400 1rem/1.625rem "Poppins", sans-serif;
+}
+.server-section {
+  margin-top: 4rem;
+  color: #667077;
+}
+.img_server_1 {
+  width: 100%;
+}
+.second-heading {
+  margin-top: 0.3rem;
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 4rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+.information {
+  color: #777777;
+}
+.border-line {
+  border-bottom: #0a2640 solid 2px;
+  width: 60%;
+}
+.border-line:hover {
+  width: 100%;
+}
+.cards_div {
+  margin-bottom: 14rem;
+}
+.selected_card {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .cards_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .selected_card {
+    width: 80%;
+  }
+  .second-heading {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+.commit2 {
+}
+.commit2_img_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.commit2_img {
+  width: 80%;
+}
+.commit2_part2 {
+  display: flex;
+  margin-top: 2rem;
+}
+.commit2_head_div {
+}
+.commit2_head {
+  width: 80%;
+}
+.faq {
+  width: 93%;
+}
+
+@media (max-width: 768px) {
+  .commit2_part2 {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .commit2_head_div {
+    display: flex;
+    justify-content: center;
+  }
+}

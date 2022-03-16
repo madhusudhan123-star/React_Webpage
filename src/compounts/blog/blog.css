@@ -1,0 +1,56 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_img {
+  width: 15%;
+}
+.profile_name {
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  color: #0a2640;
+}
+.profile_position {
+  font-size: 0.8rem;
+}
+.profile_information {
+  margin-left: 20px;
+}
+
+.catogry {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+}
+.catogry_name {
+  margin-right: 3rem;
+}
+p {
+  text-align: left;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.export-button {
+  background-color: white;
+  border: 2px solid black;
+}
+.export-button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.cards_div {
+  margin-bottom: 2rem;
+  gap: 20px;
+}
