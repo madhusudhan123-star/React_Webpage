@@ -39,6 +39,9 @@ p {
   display: flex;
   justify-content: center;
   background-color: white;
+  flex-direction: column-reverse;
+  align-items: stretch;
+  justify-content: center;
 }
 .export-button {
   background-color: white;
@@ -53,4 +56,9 @@ p {
 .cards_div {
   margin-bottom: 2rem;
   gap: 20px;
+}
+.private_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

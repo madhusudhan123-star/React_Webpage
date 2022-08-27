@@ -33,7 +33,8 @@ const Commits1 = () => {
             <div class="card-body">
               <p class="card-text fs-5 font-weight-bold texts" id="texts">
                 “Buyer buzz partner network disruptive non-disclosure agreement
-                business”
+                business”Learning curve infrastructure value proposition
+                advisor.
               </p>
               <div className="profile">
                 <img src={img7} className="profile_img" />
@@ -48,7 +49,8 @@ const Commits1 = () => {
             <div class="card-body">
               <p class="card-text fs-5 font-weight-bold middle">
                 “Learning curve infrastructure value proposition advisor
-                strategy user experience hypotheses investor.”
+                strategy user experience hypotheses investor.”Learning curve
+                infrastructure value proposition advisor.
               </p>
               <div className="profile">
                 <img src={img8} className="profile_img" />
@@ -63,7 +65,8 @@ const Commits1 = () => {
             <div class="card-body">
               <p class="card-text fs-5 font-weight-bold">
                 “Release facebook responsive web design business model canvas
-                seed money monetization.”
+                seed money monetization.”Learning curve infrastructure value
+                proposition advisor.
               </p>
               <div className="profile">
                 <img src={img6} className="profile_img" />
